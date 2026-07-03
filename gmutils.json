@@ -18,7 +18,7 @@
     "genmeta-ssh.bat"
   ],
   "checkver": {
-    "url": "https://download.dhttp.net/scoop/gmutils.json",
+    "url": "https://download.dhttp.net/scoop/preview/gmutils.json",
     "re": "\\\"version\\\"\\\\s*:\\\\s*\\\"([^\\\"]+)\\\""
   },
   "autoupdate": {
