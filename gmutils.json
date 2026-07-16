@@ -1,16 +1,16 @@
 {
-  "version": "0.8.0-beta.4",
+  "version": "0.8.0-beta.5",
   "description": "Genmeta Binary Utilities",
   "license": "Apache-2.0",
   "homepage": "https://www.dhttp.net",
   "architecture": {
   "32bit": {
-    "hash": "b47840cdb16caabf2fb3ccc7b29fe947aa4a3559837b5d80fda142c1418ed5fb",
-    "url": "https://download.dhttp.net/scoop/preview/gmutils-0.8.0-beta.4-i686-pc-windows-msvc.zip"
+    "hash": "da64305e0facd98d2d458acd0e0ffb14fbbc486bc5e6056e36c661671cc66529",
+    "url": "https://download.dhttp.net/scoop/preview/gmutils-0.8.0-beta.5-i686-pc-windows-msvc.zip"
   },
   "64bit": {
-    "hash": "063b17dace69771368335a65a844d1cb9f0363d5bc934971626fe69882f70d08",
-    "url": "https://download.dhttp.net/scoop/preview/gmutils-0.8.0-beta.4-x86_64-pc-windows-msvc.zip"
+    "hash": "6e58b51334a0d90831ffcaacf25a30e8357a591f9398c842b57d61add8684f22",
+    "url": "https://download.dhttp.net/scoop/preview/gmutils-0.8.0-beta.5-x86_64-pc-windows-msvc.zip"
   }
 },
   "bin": [
@@ -18,15 +18,15 @@
     "genmeta-ssh.bat"
   ],
   "checkver": {
-    "url": "https://download.dhttp.net/scoop/preview/gmutils.json",
-    "re": "\"version\"\\s*:\\s*\"([^\"]+)\""
-  },
+  "url": "https://download.dhttp.net/scoop/preview/gmutils.json",
+  "re": "\"version\"\\s*:\\s*\"([^\"]+)\""
+},
   "autoupdate": {
   "32bit": {
-    "url": "https://download.dhttp.net/scoop/preview/gmutils-0.8.0-beta.4-i686-pc-windows-msvc.zip"
+    "url": "https://download.dhttp.net/scoop/preview/gmutils-0.8.0-beta.5-i686-pc-windows-msvc.zip"
   },
   "64bit": {
-    "url": "https://download.dhttp.net/scoop/preview/gmutils-0.8.0-beta.4-x86_64-pc-windows-msvc.zip"
+    "url": "https://download.dhttp.net/scoop/preview/gmutils-0.8.0-beta.5-x86_64-pc-windows-msvc.zip"
   }
 }
 }
